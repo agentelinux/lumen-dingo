@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cfb26512ebbeb4ee79128a754cbff58b",
-    "content-hash": "e17d41b91bc1b80b1ff917d37331919f",
+    "hash": "20fe9582a8c5994df1c5265ddec8120d",
+    "content-hash": "4e0a8bb52fc969410783280ec24bfaea",
     "packages": [
         {
             "name": "dingo/api",
@@ -1848,6 +1848,61 @@
                 "routing"
             ],
             "time": "2015-12-20 19:50:12"
+        },
+        {
+            "name": "nordsoftware/lumen-cors",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nordsoftware/lumen-cors.git",
+                "reference": "837046a4527f2c09432e6723e9502a4079aae8af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nordsoftware/lumen-cors/zipball/837046a4527f2c09432e6723e9502a4079aae8af",
+                "reference": "837046a4527f2c09432e6723e9502a4079aae8af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "codeception/codeception": "~2.1@dev",
+                "codeception/specify": "dev-master",
+                "codeception/verify": "dev-master",
+                "laravel/lumen-framework": "~5.1@dev",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nord\\Lumen\\Cors\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoffer Niska",
+                    "email": "christofferniska@gmail.com"
+                }
+            ],
+            "description": "CORS module for the Lumen PHP framework.",
+            "keywords": [
+                "cors",
+                "cross-origin",
+                "headers",
+                "http",
+                "laravel",
+                "lumen",
+                "preflight",
+                "request",
+                "resource",
+                "sharing"
+            ],
+            "time": "2016-04-14 10:55:27"
         },
         {
             "name": "paragonie/random_compat",

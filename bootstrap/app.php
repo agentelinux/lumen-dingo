@@ -86,9 +86,9 @@ $app->singleton(
 |
 */
 
-// $app->middleware([
-//    App\Http\Middleware\ExampleMiddleware::class
-// ]);
+$app->middleware([
+      Nord\Lumen\Cors\CorsMiddleware::class,  
+]);
 
 $app->routeMiddleware([
     'auth'        => App\Http\Middleware\Authenticate::class,
@@ -112,6 +112,7 @@ $app->routeMiddleware([
 // $app->register(App\Providers\EventServiceProvider::class);
 
 // JWTAuth Dependencies
+$app->register(Nord\Lumen\Cors\CorsServiceProvider::class);
 $app->register(App\Providers\GuardServiceProvider::class);
 $app->register(Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class);
 $app->register(Dingo\Api\Provider\LumenServiceProvider::class);
