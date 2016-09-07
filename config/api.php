@@ -183,7 +183,7 @@ return [
     */
 
     'throttling' => [
-
+        'custom' =>  'App\Http\Middleware\CustomThrottle'
     ],
 
     /*
