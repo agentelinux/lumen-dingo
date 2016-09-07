@@ -24,6 +24,7 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 - [Dingo](https://github.com/dingo/api).
 - [JWT Auth](https://github.com/tymondesigns/jwt-auth).
 - Cookie encryption
+- Custom Throttle (Dingo)
 
 ## Quick Start
 
